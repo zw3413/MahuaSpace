@@ -1,5 +1,6 @@
 /*
-Theme Name: Madara | Shared by WPTry.org
+Theme Name: Madara
+ | Shared by WPTry.org
 Theme URI: http://demo.mangabooth.com/
 Author: Madara
 Author URI: https://themeforest.net/user/wpstylish
@@ -3113,6 +3114,7 @@ img.lazyloaded {
 }
 .site-header .main-navigation.style-1 .wrap_branding a img {
   max-width: 232px;
+  height:80px;
 }
 @media (max-width: 768px) {
   .site-header .main-navigation.style-1 .wrap_branding {

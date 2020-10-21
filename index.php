@@ -89,8 +89,6 @@
 											$madara_pagination->renderPageNavigation( '#loop-content', 'html/loop/content' );
 
 										?>
-
-
                                     </div>
                                 </div>
                             </div>

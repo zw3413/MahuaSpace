@@ -19,6 +19,8 @@
 	
 	get_header();
 
+	
+
 	$madara_archive_heading_text = Madara::getOption( 'archive_heading_text', '' );
 	$madara_archive_heading_icon = Madara::getOption( 'archive_heading_icon', '' );
 	$archive_content_columns     = Madara::getOption( 'archive_content_columns', 3 );
@@ -169,9 +171,12 @@
 
 ?>
 
-    <div class="c-page-content style-1">
+    <div class="c-page-content style-1 style-zw">
         <div class="content-area" style="<?php echo esc_attr( $archive_margin_top != '' ? 'margin-top: ' . $archive_margin_top . 'px' : ''); ?>">
-            <div class="container">
+		<div class="before-container">
+			aaaa
+		</div>   
+		<div class="container">
                 <div class="row <?php echo esc_attr( $madara_sidebar == 'left' ? 'sidebar-left' : '') ?>">
 
                     <div class="main-col <?php echo esc_attr( $madara_sidebar != 'full' && ( is_active_sidebar( 'manga_archive_sidebar' ) || is_active_sidebar( 'main_sidebar' ) ) ? 'col-md-8 col-sm-8' : 'sidebar-hidden col-md-12 col-sm-12'); ?>">
@@ -281,7 +286,6 @@
             </div>
         </div>
     </div>
-
 
 <?php
 
