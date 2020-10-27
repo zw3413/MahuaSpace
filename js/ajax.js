@@ -20,7 +20,7 @@
 
 	jQuery(document).ready(function () {
 		if (jQuery('#navigation-ajax').length > 0) {
-			jQuery('#navigation-ajax').live('click', function (e) {
+			jQuery('#navigation-ajax').bind('click', function (e) {
 				e.preventDefault();
 
 				if (_current_page > -1 && !_ajax_loading) {
