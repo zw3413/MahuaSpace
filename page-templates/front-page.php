@@ -174,7 +174,7 @@
     <div class="c-page-content style-1 style-zw">
         <div class="content-area" style="<?php echo esc_attr( $archive_margin_top != '' ? 'margin-top: ' . $archive_margin_top . 'px' : ''); ?>">
 		<div class="before-container">
-			aaaa
+			
 		</div>   
 		<div class="container">
                 <div class="row <?php echo esc_attr( $madara_sidebar == 'left' ? 'sidebar-left' : '') ?>">
@@ -191,11 +191,11 @@
 
                                     <h1 class="h4">
 
-										<?php if ( $madara_archive_heading_icon != '' ) { ?>
+										<?php if ( false and $madara_archive_heading_icon != '' ) { ?>
                                             <i class="<?php echo esc_attr( $madara_archive_heading_icon ); ?>"></i>
 										<?php } ?>
-
-										<?php echo esc_html( $madara_archive_heading_text ); ?>
+											<i class="icon ion-ios-star"></i> 所有漫画
+										<?php //echo esc_html( $madara_archive_heading_text ); ?>
 
                                     </h1>
                                 </div>
