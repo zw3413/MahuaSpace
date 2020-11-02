@@ -45,7 +45,7 @@
                             <!-- Button trigger modal -->
                             <a href="javascript:void(0)" data-toggle="modal" data-target="#form-login" class="btn-active-modal"><?php echo esc_html__( 'Sign in', 'madara' ); ?></a>
                             <a href="javascript:void(0)" data-toggle="modal" data-target="#form-sign-up" class="btn-active-modal"><?php echo esc_html__( 'Sign up', 'madara' ); ?></a>
-                        </div>
+						</div>
 					<?php } elseif ( $user_manga_logged ) { ?>
                         <div class="c-modal_item">
 							<?php

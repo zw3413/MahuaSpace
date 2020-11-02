@@ -1451,23 +1451,23 @@ msgstr ""
 
 #: app/hooks/template-hooks.php:311
 msgid "contains themes or scenes that may not be suitable for very young readers thus is blocked for their protection."
-msgstr ""
+msgstr "内容中有适宜未成年人观看的情节和画面，未成年人请自觉离开。"
 
 #: app/hooks/template-hooks.php:312
 msgid "Are you over 18?"
-msgstr ""
+msgstr "你超过18岁了吗？"
 
 #: app/hooks/template-hooks.php:324
 msgid "Caution to under-aged viewers"
-msgstr ""
+msgstr "未满18岁请注意"
 
 #: app/hooks/template-hooks.php:330 app/metadatas/post-metadatas.php:19 app/metadatas/post-metadatas.php:82
 msgid "No"
-msgstr ""
+msgstr "不"
 
 #: app/hooks/template-hooks.php:331
 msgid "Yes, I am"
-msgstr ""
+msgstr "是的，我满18岁了"
 
 #: app/inc/extras.php:68 app/metadatas/page-metadatas.php:107 app/metadatas/page-metadatas.php:237 inc/template-tags.php:31 madara-core/manga-search.php:126
 msgid "All"
