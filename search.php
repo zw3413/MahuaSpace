@@ -15,7 +15,9 @@
                 <form role="search" method="get" class="search-form">
                     <label> <span class="screen-reader-text"><?php esc_html_e( 'Search for:', 'madara' ); ?></span>
                         <input type="search" class="search-field" placeholder="<?php esc_html_e( 'Search...', 'madara' ); ?>" value="<?php echo esc_attr( $s ); ?>" name="s">
-                    </label> <input type="submit" class="search-submit" value="<?php esc_html_e( 'Search', 'madara' ); ?>">
+                    </label> 
+                    
+                    <input type="submit" class="search-submit" value="<?php esc_html_e( 'Search', 'madara' ); ?>">
                 </form>
             </div>
         </div>

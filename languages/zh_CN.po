@@ -171,19 +171,19 @@ msgstr ""
 
 #: app/config/theme-options.php:56 header.php:58 madara-core/manga-search.php:66 madara-core/manga-search.php:152 madara-core/widgets/manga-search/manga-search.php:90 search.php:18
 msgid "Search"
-msgstr ""
+msgstr "搜索"
 
 #: app/config/theme-options.php:64
 msgid "Social Accounts"
-msgstr ""
+msgstr "社交账号"
 
 #: app/config/theme-options.php:68
 msgid "Advertising"
-msgstr ""
+msgstr "广告"
 
 #: app/config/theme-options.php:72
 msgid "Misc"
-msgstr ""
+msgstr "其他"
 
 #: app/config/theme-options.php:76
 msgid "AMP"
