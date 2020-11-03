@@ -178,7 +178,14 @@ $manga_archives_item_layout = Madara::getOption('manga_archives_item_layout', 'd
 		</div>
 		<div class="container">
 			<div class="row <?php echo esc_attr($madara_sidebar == 'left' ? 'sidebar-left' : '') ?>">
-
+			<?php
+				if ($madara_sidebar != 'full' && is_active_sidebar('main_sidebar')) {
+				?>
+					<div class="sidebar-col col-md-4 col-sm-4">
+						<?php get_sidebar(); ?>
+					</div>
+				<?php }
+				?>
 				<div class="main-col <?php echo esc_attr($madara_sidebar != 'full' && (is_active_sidebar('manga_archive_sidebar') || is_active_sidebar('main_sidebar')) ? 'col-md-8 col-sm-8' : 'sidebar-hidden col-md-12 col-sm-12'); ?>">
 
 					<?php get_template_part('html/main-bodytop'); ?>
@@ -274,7 +281,7 @@ $manga_archives_item_layout = Madara::getOption('manga_archives_item_layout', 'd
 
 
 				<?php
-				if ($madara_sidebar != 'full' && is_active_sidebar('main_sidebar')) {
+				if (false && $madara_sidebar != 'full' && is_active_sidebar('main_sidebar')) {
 				?>
 					<div class="sidebar-col col-md-4 col-sm-4">
 						<?php get_sidebar(); ?>
