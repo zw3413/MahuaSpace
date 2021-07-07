@@ -375,7 +375,7 @@
 				wp_enqueue_script( 'comment-reply' );
 			}
 
-			wp_enqueue_script( 'madara-core', get_parent_theme_file_uri( '/js/core.js' ), array( 'jquery' ), '', true );
+			wp_enqueue_script( 'MahuaSpace-core', get_parent_theme_file_uri( '/js/core.js' ), array( 'jquery' ), '', true );
 
 			if ( $this->getOption( 'scroll_effect', 'off' ) == 'on' ) {
 				wp_enqueue_script( 'smoothscroll', get_parent_theme_file_uri( '/js/smoothscroll.js' ), array(), '1.4.5', true );
