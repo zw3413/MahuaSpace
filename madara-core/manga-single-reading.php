@@ -178,7 +178,8 @@ get_header();
 <script>
 	function jumpToRegister() {
 		debugger
-		$('#form-login .close').click();
+		$('#form-login').hide();
+		$('.modal-backdrop').hide();
 		$('.btn-active-modal').eq(3).click()
 		$('#form-sign-up .close').hide()
 		$('#form-sign-up').unbind('click')
@@ -190,7 +191,7 @@ get_header();
 		if ($('.btn-active-modal').length > 0) {
 			debugger
 			$('#form-reset .close').hide()
-			$('#form-reset').unbind('click');
+			$('#form-login').unbind('click');
 			$('.btn-active-modal').eq(2).click()
 			$('#form-login .nav').append('<a class="to-register" href="javascript:jumpToRegister()" style="margin-left:auto">新用户注册</a>')
 			$('#form-login .close').hide(); //隐藏关闭按钮
