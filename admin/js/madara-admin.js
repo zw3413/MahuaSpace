@@ -299,7 +299,7 @@ jQuery(document).ready(function (e) {
 		');
 		return false;
 	});
-	jQuery(".custom-acc-remove").live('click', function () {
+	jQuery(".custom-acc-remove").bind('click', function () {
 		jQuery(this).parent().parent().remove();
 	});
 
